@@ -15,9 +15,9 @@ const Footersection = () => {
                             <img src={footerlogo} alt="" className=' cursor-pointer max-w-[210px] max-h-[40px]' />
                             <p className=' font-inter font-medium text-[14px] 576:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF] opacity-[80%] mt-[10px] 576:mt-[16px]'>En Exclusive Games somos un equipo <span className=' 450:block'> apasionado de personas dedicadas al desarrollo </span> de multiplataformas para juegos de azar</p>
                             <div className=' flex items-center mt-[10px] 576:mt-[24px] gap-[12px]'>
-                                <a href="#"><Instaicon /></a>
-                                <a href="#"><Faceicon /></a>
-                                <a href="#"><Inicon /></a>
+                                <a href="https://www.instagram.com/" className='  cursor-pointer hover:translate-y-[-5px] duration-300'><Instaicon /></a>
+                                <a href="https://www.facebook.com/" className='  cursor-pointer hover:translate-y-[-5px] duration-300'><Faceicon /></a>
+                                <a href="https://www.linkedin.com/feed/" className=' cursor-pointer hover:translate-y-[-5px] duration-300'><Inicon /></a>
                             </div>
                         </div>
                         <div className=' w-full 992:w-7/12 px-3 mt-[20px] 992:mt-0'>
@@ -43,8 +43,8 @@ const Footersection = () => {
                                 <div className=' w-1/2 576:w-5/12 px-3 mt-[10px] 576:mt-0'>
                                     <ul className=' flex flex-col gap-[2px] 576:gap-[12px]'>
                                         <li className=' pb-1'><a href="#" className=' font-inter font-bold text-[14px] min-[1200px]:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF]'>Ponerse en contacto</a></li>
-                                        <li className=' flex items-center gap-[3px] '> <span> <Msgicon/></span> <a href="#" className=' font-inter font-medium opacity-[80%] text-[14px] min-[1200px]:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF] relative after:absolute after:w-0 after:duration-300 after:left-0 after:bottom-[-3px] after:bg-[#FFF] after:h-[2px] hover:after:w-full hover:after:left-0'>juegosexclusivos@gmail.com</a></li>
-                                        <li className=' flex items-center gap-[3px]'> <Telicon/> <a href="#" className=' font-inter font-medium opacity-[80%] text-[14px] min-[1200px]:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF] relative after:absolute after:w-0 after:duration-300 after:left-0 after:bottom-[-3px] after:bg-[#FFF] after:h-[2px] hover:after:w-full hover:after:left-0'>(101)342-7873</a></li>
+                                        <li className=' flex items-center gap-[3px] '> <span> <Msgicon/></span> <a href="mailto:namanjyani95200@gmail.com" className=' font-inter font-medium opacity-[80%] text-[14px] min-[1200px]:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF] relative after:absolute after:w-0 after:duration-300 after:left-0 after:bottom-[-3px] after:bg-[#FFF] after:h-[2px] hover:after:w-full hover:after:left-0'>juegosexclusivos@gmail.com</a></li>
+                                        <li className=' flex items-center gap-[3px]'> <Telicon/> <a href="tel:+917404215521" className=' font-inter font-medium opacity-[80%] text-[14px] min-[1200px]:text-base leading-[normal] 576:leading-[25.6px] text-[#FFF] relative after:absolute after:w-0 after:duration-300 after:left-0 after:bottom-[-3px] after:bg-[#FFF] after:h-[2px] hover:after:w-full hover:after:left-0'>(101)342-7873</a></li>
                                     </ul>
                                 </div>
                             </div>

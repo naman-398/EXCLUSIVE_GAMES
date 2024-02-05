@@ -22,7 +22,7 @@ const Elossection = () => {
     (
         <div className=' w-full 576:w-1/2 md:w-1/3 px-2 992:px-3 mt-[15px] 576:mt-[24px]'>
             <div className='  max-w-[364px] max-h-[256px] w-full h-full relative overflow-auto rounded-[8px] cardhover duration-300 cursor-pointer mx-auto 576:mx-0' data-aos={mycard2.aos}>
-                <img src={mycard2.img} alt="" />
+                <img src={mycard2.img} alt="" className=' w-full h-full' />
                 <div className=' absolute bg-[#000000B8] w-full h-full flex items-center justify-center left-0 bottom-0 cardlinear opacity-0 duration-300'>
                     <COmmonbtn text='Rcasinovip' />
                 </div>
