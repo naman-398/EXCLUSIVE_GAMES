@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import { Minus, Plus } from '../Commonicon/Icon';
 const AccordionItem = ({ index, title, content, headingParaStyle, isOpen, onToggle }) => {
     return (
-      <div className=" mb-[10px] 576:mb-[32px] p-[10px_15px] 576:p-[16px_20px] rounded-[6px] border-[1px] border-[#FFFFFF80]" data-aos="fade-up">
+      <div className=" mb-[10px] 576:mb-[32px] p-[10px_15px] 576:p-[16px_20px] rounded-[6px] border-[1px] border-[#FFFFFF80] duration-300" data-aos="fade-up">
         <div className="flex justify-between items-center bg-transparent  cursor-pointer"  onClick={() => onToggle(index)}>
-          <span style={headingParaStyle} className=' font-Anton text-[15px] 450:text-[17px] 576:text-[20px] leading-[normal] 576:leading-[26px] text-[#FFF] font-normal bg-transparent'>{title}</span>
+          <span style={headingParaStyle} className=' font-Anton text-[15px] 450:text-[17px] 576:text-[20px] leading-[normal] 576:leading-[26px] text-[#FFF] font-normal bg-transparent duration-300'>{title}</span>
           <span className=" font-normal  text-white ps-1">{isOpen ? <Minus/> : <Plus/>}</span>
         </div>
         {isOpen && (
-          <div className="bg-transparent pt-1 576:pt-2">
-            <p className='  font-inter text-[14px] 576:text-base text-[#FFF] leading-[normal] 576:leading-[25.6px] font-medium opacity-[80%] bg-transparent max-w-[880px]'>{content}</p>
+          <div className="bg-transparent pt-1 576:pt-2 duration-300">
+            <p className='  font-inter text-[14px] 576:text-base text-[#FFF] leading-[normal] 576:leading-[25.6px] font-medium opacity-[80%] bg-transparent max-w-[880px] duration-300'>{content}</p>
           </div>
         )}
       </div>
